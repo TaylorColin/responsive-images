@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 
 Test File 2
+=======
+
+Test File
+>>>>>>> 213dbe4f2e9bd75f4ecc85c4d306b451c398a8fa
