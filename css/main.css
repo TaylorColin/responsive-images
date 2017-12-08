@@ -1,0 +1,74 @@
+
+
+
+/* =============================================================================================================
+
+LAB 8 - RESPONSIVE IMAGES
+
+PHOTOGRAPH ATTRIBUTIONS
+
+Images belong to one of
+
+    1. Markus Spiske:  http://500px.com/markusspiske;
+    2. Yinan Chen:     http://500px.com/webmaster85; or
+    3. Fahim Akhter:   http://500px.com/fahimakhter.
+
+================================================================================================================= */
+
+body
+{   margin:       0;
+    padding:      0;    
+    box-sizing:   border-box;
+    font-family:  Barlow Semi Condensed, Helvetica, Verdana, sans-serif;    
+}
+ul
+{    list-style: none;
+     clear:      both;
+}
+li
+{   float:      left;            
+    margin-top: 2%;              
+}
+img
+{    max-width:   90%;  
+     transition:  all     2.0s     ease-in;
+     display:     block;  
+}
+img:hover
+{    transform:  rotate3d(180, 180, 180, 1800deg);
+     z-index:    10;
+}
+figcaption
+{    font-size: 55%;
+}
+
+
+/* DISPLAY SIZE DETERMINATION ----------------------------------------------------------------------------------- */
+
+/* Display 2 columns */
+@media screen and (min-width: 600px)
+{    li
+     {  width: 50%;
+     }
+     img:hover
+     {   transition:  all          0.2s     ease-in;
+         transform:   scale(0.25);
+     }
+     img:hover figcaption
+     {    font-size: 120%;
+     }
+}
+
+/* Display 4 columns  */
+@media screen and (min-width: 1201px)
+{    li
+     {  width: 25%;
+     }
+     img:hover
+     {   transition:  all         0.2s     ease-in;
+         transform:   scale(1.5);
+     }
+}
+
+/* End of File ================================================================================================= */
+

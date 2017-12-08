@@ -1,0 +1,153 @@
+
+<!------------------------------------------------------------------------------------------------------------------
+
+MAD9013: Cross-Platform Web Development
+
+LAB 8 - RESPONSIVE IMAGES
+
+--------------------------------------------------------------------------------------------------------------------
+PHOTOGRAPH ATTRIBUTIONS
+
+Images belong to one of
+
+    1. Markus Spiske:  http://500px.com/markusspiske;
+    2. Yinan Chen:     http://500px.com/webmaster85; or
+    3. Fahim Akhter:   http://500px.com/fahimakhter.
+    
+------------------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <title>MAD9013: Lab 8 - Responsive Images</title>
+     <meta name="viewport"     content="width=device-width, inital-scale=1.0"> 
+     <link rel="stylesheet"    type="text/css" href="css/main.css">
+     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h2>Responsive Images</h2>
+    </header>
+    <main>
+      
+      <!-- PHOTOGRAPH PRESENTATIONS -->
+      <ul>
+        <!-- 1. Canyon Photograph -->
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/fahim-akhter-kund-malir-pakistan-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/fahim-akhter-kund-malir-pakistan-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/fahim-akhter-kund-malir-pakistan-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/fahim-akhter-kund-malir-pakistan-600px-450px.jpg"  alt  ="Photograph of Canyon: Kund Malir, Hangol, Pakistan by Fahim Akhter">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/121067443/kund-malir-hangol-pakistan-by-fahim-akhter?ctx_page=1&from=user&user_id=9427903">Canyon - F. Akhter</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <!-- 2. Carrots Photograph -->
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/markus-spiske-carrots-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/markus-spiske-carrots-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/markus-spiske-carrots-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/markus-spiske-carrots-600px-450px.jpg"  alt  ="Photograph of Carrots: By Markus Spiske">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/164926863/controlled-farming-fresh-bio-carrot-by-markus-spiske-raumrot-com?ctx_page=1&from=user&user_id=17791449">Carrots - M. Spiske</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>    
+
+        <!-- 3. Concert Crowd Photograph -->    
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/markus-spiske-concert-crowd-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/markus-spiske-concert-crowd-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/markus-spiske-concert-crowd-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/markus-spiske-concert-crowd-600px-450px.jpg"  alt  ="Photograph of a Concert Crowd: By Markus Spiske">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/164928011/music-festival-live-concert-fans-by-markus-spiske-raumrot-com?ctx_page=1&from=user&user_id=17791449">Music Fans - M. Spiske</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <!-- 4. Fender Guitar Photograph -->                        
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/markus-spiske-guitar-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/markus-spiske-guitar-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/markus-spiske-guitar-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/markus-spiske-guitar-600px-450px.jpg"  alt  ="Photograph of Guitar: By Markus Spiske">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/164929063/e-gitarre-e-guitar-by-markus-spiske-raumrot-com?ctx_page=1&from=user&user_id=17791449">eGuitar - M. Spiske</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>
+       
+        <!--5 . Guitar Player on Stage Photograph -->            
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/markus-spiske-stage-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/markus-spiske-stage-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/markus-spiske-stage-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/markus-spiske-stage-600px-450px.jpg"  alt  ="Photograph of guitar player on Stage: By Markus Spiske">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/164928125/live-on-stage-by-markus-spiske-raumrot-com?ctx_page=1&from=user&user_id=17791449">Stage - M. Spiske</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>
+             
+        <!-- 6. Castlerock, Wisconsin Photograph -->
+        <li>
+            <figure>
+                <picture>               
+                    <source srcset="img/large/yiman-chen-castlerock-wisconsin-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/yiman-chen-castlerock-wisconsin-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/yiman-chen-castlerock-wisconsin-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/yiman-chen-castlerock-wisconsin-600px-450px.jpg"  alt  ="Sunset over Castlerock Lake: By Yinan Chen">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/147944679/sunset-over-castlerock-lake-by-yinan-chen?ctx_page=1&from=user&user_id=10318475">Sunset - Y. Chen</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <!-- 7. Sitting on the Bluff (Castlerock, Wisconsin) Photograph -->
+        <li>
+            <figure>
+                <picture>
+                    <source srcset="img/large/yiman-chen-gibraltar-rock-wisconsin-800px-600px.jpg"   media="(min-width: 1201px)">
+                    <source srcset="img/medium/yiman-chen-gibraltar-rock-wisconsin-600px-450px.jpg"  media="(min-width: 600px) and (max-width: 1200px)">
+                    <source srcset="img/small/yiman-chen-gibraltar-rock-wisconsin-400px-300px.jpg"   media="(max-width: 599px)">
+                    <img    src   ="img/medium/yiman-chen-gibraltar-rock-wisconsin-600px-450px.jpg"  alt  ="Sitting on the Bluff (at Castlerock, Wisconsin): By Yinan Chen">
+                </picture>    
+                <figcaption>
+                    <a class="figcation" href="https://500px.com/photo/144012677/sitting-on-the-bluff-by-yinan-chen?ctx_page=1&from=user&user_id=10318475">Bluff - Y. Chen</a>
+                    Liensed: <a class="figcation" href="https://creativecommons.org/licences/by/3.0/">CC BY 3.0</a>
+                </figcaption>
+            </figure>
+        </li>                                           
+      </ul>
+    </main> 
+  </body>
+</html>
+
+<!-- End of File -------------------------------------------------------------------------------------------------->
+
