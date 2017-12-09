@@ -26,8 +26,9 @@ ul
      clear:      both;
 }
 li
-{   float:      left;            
-    margin-top: 2%;              
+{   float:          left;            
+    margin-top:     1%; 
+    margin-bottom:  2%;
 }
 img
 {    max-width:   90%;  
