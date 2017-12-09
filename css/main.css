@@ -26,7 +26,8 @@ ul
      clear:      both;
 }
 li
-{   float:          left;            
+{   float:          left;
+    padding-top:    2%; 
     margin-top:     2%; 
     margin-bottom:  5%;
 }
